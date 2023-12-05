@@ -45,13 +45,23 @@ Please look at the configuration in this repository for source-of-truth. Anythin
 
 ### TODOs
 
-1. Figure out how Lua LSP autocompletion works. Needs some fine tuning.
-2. WhichKey up-and-down selection. Find replacement for <C-D> and <C-U>. Try and stick to vim bindings. 
-3. TODO comment highlighting and autopairing
+0. Document steps needed and links for getting the Lua LSP working
+1. WhichKey up-and-down selection. Find replacement for <C-D> and <C-U>. Try and stick to vim bindings. 
+2. TODO comment highlighting and autopairing
     - Nvim-autopairs: https://github.com/windwp/nvim-autopairs
     - Comment.vim: https://github.com/numToStr/Comment.nvim
-4. More LSPs - python, java, javascript, typescript, html, css, kotlin
+3. More LSPs
+    - Python
+    - Java
+    - Kotlin
+    - Typescript
+    - Javascript
+    - HTML, CSS
+    - Markdown (?)
+4. Learn, tune, incorporate commands and keybindings so that everything makes sense
+    - Document them so that I can have a cheat-sheet
 5. Other useful plugins based on day-to-day workflow
+6. Start developing with Neovim!
 
 ### Plugins
 
@@ -162,7 +172,7 @@ Use `:checkhealth nvim-treesitter` to view status; a correct setup should have n
 
 ##### Language Server Protocols (LSPs)
 
-[Please use lsp-zero - otherwise you'll go insane.](https://github.com/VonHeikemen/lsp-zero.nvim).
+[You don't need to use lsp-zero.](https://github.com/VonHeikemen/lsp-zero.nvim). But it's good to use it as a reference for installing and setting up all the plugins.
 
 You do not have to manage LSPs if you use `mason`; it should do it for you. [Here are some `mason` commmands](https://github.com/williamboman/mason.nvim#commands).
 
